@@ -13,24 +13,7 @@ body {
 }
 
 
-.row {
-    border: 2px solid lime;
-}
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-    border: 2px solid red;
-}
 
 .user-profile-image {
     width: 100%;
@@ -62,4 +45,22 @@ body {
 
 .footer .contact-info li {
     display: inline;
+}
+
+.products {
+    border: 2px solid black;
+}
+
+.contact-button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: black;
 }
